@@ -1,0 +1,10 @@
+<h1> what is your name? </h1>
+
+<form action="{% url 'firth' %}" method="POST"> 
+    {% csrf_token %}
+<input type = "text" name="name">
+
+<input type = "submit"
+       value="확인">
+
+</form>
