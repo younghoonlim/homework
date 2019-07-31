@@ -7,3 +7,5 @@ urlpatterns=[
     path('third/',views.third),
     path('firth/',views.firth, name="firth"),
 ]
+
+
